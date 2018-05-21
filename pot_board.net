@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/Users/rossredman/Documents/Electronics/Projects/x0xboard/Utility Circuits/Pot Board/pot_board.sch")
-    (date "Monday, 07 May 2018 'pmt' 12:56:08 pm")
+    (date "Monday, 21 May 2018 'pmt' 07:57:53 pm")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -328,14 +328,14 @@
         (pin (num 2) (name B) (type passive))
         (pin (num 3) (name C) (type passive)))))
   (libraries
-    (library (logical switches)
-      (uri "/Library/Application Support/kicad/library/switches.lib"))
+    (library (logical conn)
+      (uri "/Library/Application Support/kicad/library/conn.lib"))
     (library (logical device)
       (uri "/Library/Application Support/kicad/library/device.lib"))
     (library (logical mechanical)
       (uri "/Library/Application Support/kicad/library/mechanical.lib"))
-    (library (logical conn)
-      (uri "/Library/Application Support/kicad/library/conn.lib")))
+    (library (logical switches)
+      (uri "/Library/Application Support/kicad/library/switches.lib")))
   (nets
     (net (code 1) (name GND)
       (node (ref SW6) (pin 3))
