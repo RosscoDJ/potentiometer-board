@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 20.269999 96.469999 210.870001 142.290001)
     (thickness 1.6)
-    (drawings 38)
+    (drawings 39)
     (tracks 153)
     (zones 0)
     (modules 40)
@@ -743,9 +743,9 @@
       (net 28 "Net-(RV1-Pad1)"))
     (pad 0 np_thru_hole circle (at 7 -6.9 270) (size 4 4) (drill 2) (layers *.Cu *.Mask))
     (pad 0 np_thru_hole circle (at 7 1.9 270) (size 4 4) (drill 2) (layers *.Cu *.Mask))
-    (model Potentiometers.3dshapes/Potentiometer_Bourns_PTV09A-1_Horizontal.wrl
+    (model "/Library/Application Support/kicad/packages3d/Potentiometers.3dshapes/Potentiometer_Alps_RK09L_Single_Vertical.wrl"
       (at (xyz 0 0 0))
-      (scale (xyz 0.393701 0.393701 0.393701))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1887,6 +1887,9 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
+  (gr_text "Potentiometer Board\nRev. A\nRoss Redman\n08 May 2018" (at 24.13 125.222) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)) (justify left))
+  )
   (gr_line (start 20.32 142.24) (end 20.32 96.52) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 210.82 142.24) (end 20.32 142.24) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 210.82 96.52) (end 210.82 142.24) (angle 90) (layer Edge.Cuts) (width 0.1))

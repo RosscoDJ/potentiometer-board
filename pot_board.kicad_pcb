@@ -64,8 +64,8 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFF77F)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
-      (usegerberextensions false)
+      (layerselection 0x010f0_80000001)
+      (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -85,9 +85,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory Pot_Board_REVA))
   )
 
   (net 0 "")
@@ -743,9 +743,9 @@
       (net 28 "Net-(RV1-Pad1)"))
     (pad 0 np_thru_hole circle (at 7 -6.9 270) (size 4 4) (drill 2) (layers *.Cu *.Mask))
     (pad 0 np_thru_hole circle (at 7 1.9 270) (size 4 4) (drill 2) (layers *.Cu *.Mask))
-    (model Potentiometers.3dshapes/Potentiometer_Bourns_PTV09A-1_Horizontal.wrl
+    (model "/Library/Application Support/kicad/packages3d/Potentiometers.3dshapes/Potentiometer_Alps_RK09L_Single_Vertical.wrl"
       (at (xyz 0 0 0))
-      (scale (xyz 0.393701 0.393701 0.393701))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
